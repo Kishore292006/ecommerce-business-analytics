@@ -1,3 +1,4 @@
+
 # E-Commerce Business Analytics & Customer Intelligence
 
 **An end-to-end business intelligence project using MySQL, SQL, Power BI, and DAX to analyze e-commerce performance, customer behavior, product categories, geographic revenue, delivery operations, and customer satisfaction.**
@@ -56,7 +57,7 @@ The data is analyzed across related tables rather than treated as a single flat 
 - Customer analysis uses the project's defined customer identifier and repeat-purchase logic.
 - Review-score comparisons are observational and do not establish causation.
 
-The original dataset is not redistributed as part of this README. Obtain it from its public source and follow the applicable dataset terms.
+The repository includes the raw CSV datasets used in the project. Refer to the original dataset source and applicable terms when redistributing or reusing the data.
 
 ## 5. Power BI Dashboard
 
@@ -119,21 +120,30 @@ The interactive report is maintained in a single Power BI file with four report 
 
 ### Page 4 — Delivery & Customer Experience
 
-![Delivery & Customer Experience](power_bi/screenshots/04_delivery_customer_experience.png)
-
+![Delivery & Customer Experience](power_bi/screenshots/04_delivery_customers_experience.png)
 **Business purpose:** Evaluate delivery reliability and investigate the relationship between delivery performance and customer satisfaction.
 
 **Key metrics**
-- On-time delivery rate
-- Late deliveries
-- Average delivery time
-- Average delay among late orders
-- Average customer review score
+- On-time delivery rate: 91.89%
+- Late deliveries: 7,826
+- Average delivery time: 12.50 days
+- Average delay among late orders: 8.87 days
+- Average customer review score: 4.09 / 5
 
 **Analysis**
 - On-time versus late deliveries
 - Average review scores for on-time and late deliveries
 - Operational insights and business recommendations
+
+**Key Findings**
+- 91.89% of eligible delivered orders arrived on time or early.
+- 7,826 eligible delivered orders arrived after their estimated delivery dates.
+- Late orders had an average review score of 2.57/5, compared with 4.29/5 for on-time or early orders.
+- The average delay among late deliveries was 8.87 calendar days.
+
+**Business Recommendation:** Investigate recurring delivery delays, review logistics performance, and prioritize improvements that reduce late deliveries and improve customer experience.
+
+*Note: These results describe associations in the Olist dataset and do not establish causation.*
 
 ## 6. Key Business Findings
 
@@ -272,7 +282,7 @@ ecommerce-business-analytics/
 │   │   ├── 01_executive_sales_overview.png
 │   │   ├── 02_product_category_performance.png
 │   │   ├── 03_customer_geographic_insights.png
-│   │   └── 04_delivery_customer_experience.png
+│   │   └── 04_delivery_customers_experience.png
 │   └── ecommerce_business_analytics.pbix
 ├── results/
 ├── sql/
