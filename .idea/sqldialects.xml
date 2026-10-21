@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/sql/business_analysis/01_sales_performance.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/business_analysis/02_monthly_yearly_sales_trends.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/business_analysis/03_product_category_analysis.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/business_analysis/04_customer_analysis.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/business_analysis/05_geographic_analysis.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/business_analysis/06_payment_analysis.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/business_analysis/07_delivery_performance.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/business_analysis/08_review_analysis.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/business_analysis/09_order_status_analysis.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/data_quality_checks.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sql/database_setup.sql" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>
