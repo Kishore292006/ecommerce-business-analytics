@@ -33,3 +33,7 @@ Thumbs.db
 # Power BI temporary and backup files
 *.pbix.autorecover
 *.pbix.bak
+# IDE and local workspace files
+.idea/
+.vscode/
+*.iml
